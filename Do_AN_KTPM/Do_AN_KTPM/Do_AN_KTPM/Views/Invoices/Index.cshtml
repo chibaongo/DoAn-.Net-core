@@ -1,0 +1,66 @@
+﻿<link href="~/css/styleListAccounts.css" rel="stylesheet">
+@model IEnumerable<Invoice>
+
+<a asp-controller="Admins" asp-action="Index" class="text-white  p-30  bg-dark "><i class="fa fa-arrow-left "></i></a>
+
+<div class="col-lg-4 col-6 text-left search">
+    <form asp-action="Search">
+        <div class="input-group ">
+            <input type="text" class="form-control rdu " name="Name" placeholder="Search for accounts (Full name)">
+            <div class="input-group-append  ">
+                <span class="input-group-text bg-transparent text-primary sizeInput">
+                    <button class="rdu"><i class="fa fa-search"></i></button>
+
+                </span>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="container">
+    <div class="items">
+        <a asp-action="Index" class="btn btn-block btn-info">All bills</a>
+    </div>
+    <div class="items">
+        <a asp-action="LatestBillOfTheWeek" class="btn btn-block btn-info">LatestBillOfTheWeek</a>
+    </div>
+    
+</div>
+<table class="table table-light m-3  ">
+    <thead class="table-dark">
+
+
+        <tr>
+            <th>Code</th>
+            <th>AccountId</th>
+            <th>ShippingAddress</th>
+            <th>ShippingPhone</th>
+            <th>IssuedDate</th>
+            <th>Total</th>
+            <th>Function</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Code</td>
+                <td>@item.Account.Fullname</td>
+                <td>@item.ShippingAddress</td>
+                <td>@item.ShippingPhone</td>
+                <td>@item.IssuedDate</td>
+                <td>@item.Total</td>
+
+                <td>
+                    <a asp-controller="InvoiceDetails" asp-action="Index" asp-route-id="@item.Id" class="btn btn-info">Invoice Details</a>
+                    @*<a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-info">Edit</a>
+
+                    <form asp-action="Delete" asp-route-id="@item.Id" class="d-inline-block" onsubmit="return confirm('Are you sure you want to delete this account?');">
+                        <button class=" btn btn-danger">Delete</button>
+                    </form>*@
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

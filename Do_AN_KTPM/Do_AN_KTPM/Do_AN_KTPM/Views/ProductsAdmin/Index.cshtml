@@ -1,0 +1,100 @@
+﻿@model IEnumerable<Do_AN_KTPM.Models.Product>
+
+<link href="~/css/styleListAccounts.css" rel="stylesheet">
+@{
+    ViewData["Title"] = "Index";
+}
+<a asp-controller="Admins" asp-action="Index" class="text-white  p-30  bg-dark "><i class="fa fa-arrow-left "></i></a>
+
+
+<div class="col-lg-4 col-6 text-left search">
+    <form asp-action="Search">
+        <div class="input-group ">
+            <input type="text" class="form-control rdu " name="Name" placeholder="Search for product (name)">
+            <div class="input-group-append  ">
+                <span class="input-group-text bg-transparent text-primary sizeInput">
+                    <button class="rdu"><i class="fa fa-search"></i></button>
+
+                </span>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<div class="container">
+    <div class="items">
+        <a asp-action="Create" class="btn btn-block btn-info">Create </a>
+
+    </div>
+    <div class="items">
+        <a asp-action="FilterProductFalse" class="btn btn-block btn-info">FilterProductFalse </a>
+    </div>
+</div>
+<table class="table table-light m-3  ">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SKU)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductType)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SKU)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Stock)
+                </td>
+                <td>
+                    <img src="~/img/product/@item.Image" style="width:90px">
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductType.Name)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-info">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

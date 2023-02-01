@@ -1,0 +1,30 @@
+﻿<link href="~/css/styleAdmin.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a asp-controller="Home" asp-action="Index" class="text-white  p-30  bg-dark "><i class="fa fa-arrow-left "></i></a>
+<body>
+    <h2>
+        <i class="fa fa-briefcase"></i>
+        Manage
+    </h2>
+    <div class="container">
+        <div class="items">
+            <a class="fas fa-user text-primary btn btn-block" asp-controller="Accounts" asp-action="Index"></a>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Accounts" asp-action="Index">Accounts</a>
+        </div>
+        <div class="items">
+
+            <a class="fa fa-product-hunt text-primary btn btn-block " asp-controller="ProductsAdmin" asp-action="Index"></a>
+            <a class="nav-link text-dark" asp-area="" asp-controller="ProductsAdmin" asp-action="Index">Products</a>
+        </div>
+        <div class="items">
+            <a class="	fas fa-star text-primary btn btn-block " asp-controller="ProductTypes" asp-action="Index"></a>
+            <a class="nav-link text-dark" asp-area="" asp-controller="ProductTypes" asp-action="Index">ProductTypes</a>
+        </div>
+        <div class="items">
+            <a class="fas fa-file-alt text-primary btn btn-block" asp-controller="Invoices" asp-action="Index"></a>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Invoices" asp-action="Index">Invoices</a>
+        </div>
+    </div>
+
+    
+</body>

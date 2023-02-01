@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Do_AN_KTPM.Models.ProductType>
+
+
+
+    @foreach (var item in Model)
+    {
+    <a href="/Products/Index?productType=@item.Id" class="nav-item nav-link">@item.Name</a>
+}
+
+@*<a href="" class="nav-item nav-link">Shirts</a>
+<a href="" class="nav-item nav-link">Jeans</a>
+<a href="" class="nav-item nav-link">Swimwear</a>
+<a href="" class="nav-item nav-link">Sleepwear</a>
+<a href="" class="nav-item nav-link">Sportswear</a>
+<a href="" class="nav-item nav-link">Jumpsuits</a>
+<a href="" class="nav-item nav-link">Blazers</a>
+<a href="" class="nav-item nav-link">Jackets</a>
+<a href="" class="nav-item nav-link">Shoes</a>*@

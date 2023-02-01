@@ -1,0 +1,29 @@
+.container
+{
+  
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5px;
+}
+.items{
+    border: 1px solid;
+    width: 20%;
+   
+}
+.search{
+    margin-left: 35%;
+    margin-bottom: 20px;
+    
+}
+.sizeInput{
+   border-radius: 10px;
+    height: 87%;
+    margin-left: 3px;
+   
+}
+.rdu{
+    border-radius: 20px;
+}

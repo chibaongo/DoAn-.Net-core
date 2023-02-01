@@ -1,0 +1,184 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Do_AN_KTPM
+build_property.RootNamespace = Do_AN_KTPM
+build_property.ProjectDir = D:\DoAn-.Net-core\Do_AN_KTPM\Do_AN_KTPM\Do_AN_KTPM\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\DoAn-.Net-core\Do_AN_KTPM\Do_AN_KTPM\Do_AN_KTPM
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Accounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Accounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Accounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Accounts/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Accounts/FilterAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRmlsdGVyQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Accounts/FilterUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRmlsdGVyVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Accounts/FilterUserFalse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRmlsdGVyVXNlckZhbHNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Accounts/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Accounts/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcU2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Admins/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Carts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Carts/Purchase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcUHVyY2hhc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Category/_categoryInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcX2NhdGVnb3J5SW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Home/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/InvoiceDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZURldGFpbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Invoices/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Invoices/LatestBillOfTheWeek.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZXNcTGF0ZXN0QmlsbE9mVGhlV2Vlay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Invoices/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZXNcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/ProductsAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNBZG1pblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/ProductsAdmin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNBZG1pblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/ProductsAdmin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNBZG1pblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/ProductsAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNBZG1pblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/ProductsAdmin/FilterProductFalse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNBZG1pblxGaWx0ZXJQcm9kdWN0RmFsc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/ProductsAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNBZG1pblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/ProductsAdmin/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNBZG1pblxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Products/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Products/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/ProductTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/ProductTypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/ProductTypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/ProductTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/ProductTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DoAn-.Net-core/Do_AN_KTPM/Do_AN_KTPM/Do_AN_KTPM/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-c8f6xwy1qc

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<InvoiceDetail>
+
+<a asp-controller="Invoices" asp-action="Index" class="text-white  p-30  bg-dark "><i class="fa fa-arrow-left "></i></a>
+<table class="table table-light m-3  ">
+    <thead class="table-dark">
+
+
+        <tr>
+            <th>Product</th>
+            <th>Image</th>
+            <th>Quantity</th>
+            <th>UnitPrice</th>
+  
+            <th>Function</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Product.Name</td>
+                <td><img src="~/img/product/@item.Product.Image" width="100px" /></td>
+                <td>@item.Quantity</td>
+                <td>@item.UnitPrice</td>
+             
+
+       
+            </tr>
+        }
+    </tbody>
+
+</table>

@@ -1,0 +1,88 @@
+﻿@inject IHttpContextAccessor Accessor
+
+@{
+ 
+    string isAdmin = Accessor.HttpContext.Session.GetString("IsAdmin");
+}
+
+<link href="~/css/styleDetail.css" rel="stylesheet">
+
+@model Account
+
+@if (isAdmin != null)
+{
+    <a asp-action="Index" asp-controller="Home" class="text-white  p-30  bg-dark ">Home</a>
+    <a asp-action="Index" class="text-white  p-30  bg-dark ">Manage Account</a>
+}
+else
+{
+    <a asp-controller="Home" asp-action="Index" class="text-white  p-30  bg-dark "><i class="fa fa-arrow-left "></i></a>
+    <a asp-action="EditUser" asp-route-id="@Model.Id" class="btn btn-info">Edit</a>
+}
+@section Msg{
+    <script>
+        setTimeout(function () {
+            $('#userEdit').fadeOut('slow');
+        }, 3000);
+
+    </script>
+    }
+@if (ViewBag.UserEdit != null)
+{
+    <div id="userEdit" class="alert alert-primary text-center m-3" role="alert">
+        @ViewBag.UserEdit
+    </div>
+}
+<body>
+    <section class="contact pt-100 pb-100" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 mx-auto text-center">
+                    <div class="section-title mb-100">
+                        
+                        <h4>Infomation</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-8">
+                    <form action="#" class="contact-form">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <label>Username</label>
+                                <input type="text" value="@Model.Username" readonly="true">
+                            </div>
+                          
+                            <div class="col-xl-6">
+                                <label>Fullname</label>
+                                <input type="text" value="@Model.Fullname" readonly="true">
+                            </div>
+                            <div class="hinh">
+                               
+                                <img src="~/img/avatar/@Model.Avatar" width="200px">
+                            </div>
+                            
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-contact">
+                        <i class="fa fa-map-marker"></i>
+                        <h5>Address</h5>
+                        <p>@Model.Adress</p>
+                    </div>
+                    <div class="single-contact">
+                        <i class="fa fa-phone"></i>
+                        <h5>Phone</h5>
+                        <p>@Model.Phone</p>
+                    </div>
+                    <div class="single-contact">
+                        <i class="fa fa-envelope"></i>
+                        <h5>Email</h5>
+                        <p>@Model.Email</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>

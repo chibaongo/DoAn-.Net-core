@@ -1,0 +1,18 @@
+.container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+ 
+    text-align: center;
+}
+.items{
+    width: 27%;
+    border: 2px solid;
+    margin: 3%;
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+    
+}

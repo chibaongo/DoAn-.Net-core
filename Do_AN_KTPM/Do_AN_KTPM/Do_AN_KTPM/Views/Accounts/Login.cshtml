@@ -1,0 +1,27 @@
+﻿<link href="~/css/styleCreate.css" rel="stylesheet">
+@model Account
+@section ScripSignUpSS{
+    <script>
+        setTimeout(function()
+        {
+            $('#msgSignUpSS').fadeOut('slow');
+        },5000);
+    </script>
+}
+    <a asp-controller="Home" asp-action="Index" class="text-white  p-30  bg-dark "><i class="fa fa-arrow-left "></i></a>
+<form asp-action="Login" class="khung">
+    <h1 style="text-align:center">Login</h1>
+    @if (ViewBag.CreateSuccess != null)
+    {
+        <div id="msgSignUpSS" class="alert alert-primary text-center m-3" role="alert">
+            @ViewBag.CreateSuccess
+        </div>
+    }
+    <label asp-for="Username"><b>Username</b></label>
+    <input asp-for="Username" type="text" placeholder="Username" required value="admin">
+
+    <label asp-for="Password"><b>Password</b></label>
+    <input asp-for="Password" type="password" placeholder="Password" required value="Admin12345">
+    <button class="btnLogin">Login</button>
+    <p class="text-danger">@ViewBag.Error</p>
+</form>

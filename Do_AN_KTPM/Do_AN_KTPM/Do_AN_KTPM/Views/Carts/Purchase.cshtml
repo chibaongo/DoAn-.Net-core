@@ -1,0 +1,21 @@
+﻿@model Cart
+@inject IHttpContextAccessor Accessor
+@{
+    string username = Accessor.HttpContext.Session.GetString("UserName");
+}
+<link href="~/css/styleCreate.css" rel="stylesheet">
+<h1 class="col-md-10 khung">Invoice</h1>
+<form class="col-md-10 khung" asp-route-name="@username" asp-action="Purchase" >
+    <div class="form-group mb-2">
+        <label>ShippingAddress:</label>
+        <input type="text" name="ShippingAddress" class="form-control"@* value="@Model.Account.Adress"*@ />
+    </div>
+    <div class="form-group mb-2">
+        <label>ShippingPhone:</label>
+        <input type="text" name="ShippingPhone" class="form-control" @*value="@Model.Account.Phone"*@/>
+    </div>
+   
+    <div class="form-group">
+        <button class="btn btn-success">bill paymentn</button>
+    </div>
+</form>

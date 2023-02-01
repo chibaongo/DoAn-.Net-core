@@ -1,0 +1,41 @@
+﻿
+
+<link href="~/css/styleCreate.css" rel="stylesheet">
+@model Account
+
+<a asp-controller="Accounts" asp-action="Details"  asp-route-id="@Model.Id" class="text-white  p-30  bg-dark "><i class="fa fa-arrow-left "></i></a>
+<form asp-action="EditUser" class="col-md-10 khung" enctype="multipart/form-data">
+    <input asp-for="Id" type="hidden" />
+    <div class="container">
+        <h1 class="text-center">Editing form</h1>
+        <p class="text-center">Information</p>
+        <hr>
+
+        <label asp-for="Username"><b>Username</b></label>
+        <input asp-for="Username" type="text" placeholder="Username" readonly>
+
+        <label asp-for="Password"><b>Password</b></label>
+        <input asp-for="Password" type="password" placeholder="Password" required pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must contain at least 8 characters and have at least 1 lowercase letter, 1 uppercase letter">
+        <p class=" ghichu ">*Password must contain at least 8 characters and have at least 1 lowercase letter, 1 uppercase letter</p>
+        <label asp-for="Email"><b>Email</b></label>
+        <input asp-for="Email" type="text" placeholder="Email" required pattern="[a-z0-9._%+-]+@@[a-z0-9.-]+\.[a-z]{2,}$" title="Email invalidate">
+
+        <label asp-for="Phone"><b>Phone</b></label>
+        <input asp-for="Phone" type="text" placeholder="Phone" required pattern="[0-9]{10}" title="Phone number must include 10 numbers">
+
+        <label asp-for="Adress"><b>Adress</b></label>
+        <input asp-for="Adress" type="text" placeholder="Adress" required>
+
+        <label asp-for="Fullname"><b>Fullname</b></label>
+        <input asp-for="Fullname" type="text" placeholder="Fullname" required>
+
+        <label asp-for="AvatarFile"><b>Avatar</b></label>
+        <input asp-for="AvatarFile" class="form-control" placeholder="Username" required>
+        <span asp-validation-for="AvatarFile" class="text-danger"></span>
+        <p class="ghichu">*If the file is not in the correct format, the image will not be displayed</p>
+        <input asp-for="Status" type="hidden" value="true" />
+        <div class="clearfix">
+            <button type="submit" class="signupbtn">Edit</button>
+        </div>
+    </div>
+</form>

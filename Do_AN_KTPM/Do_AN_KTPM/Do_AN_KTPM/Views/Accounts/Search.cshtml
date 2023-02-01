@@ -1,0 +1,89 @@
+﻿<link href="~/css/styleListAccounts.css" rel="stylesheet">
+@model IEnumerable<Account>
+<!--Search-->
+
+<a asp-controller="Home" asp-action="Index" class="text-white  p-30  bg-dark "><i class="fa fa-arrow-left "></i></a>
+<div class="col-lg-4 col-6 text-left search">
+    <form asp-action="Search">
+        <div class="input-group ">
+            <input type="text" class="form-control rdu " name="Name" placeholder="Search for accounts (username)">
+            <div class="input-group-append  ">
+                <span class="input-group-text bg-transparent text-primary sizeInput">
+                    <button class="rdu"><i class="fa fa-search"></i></button>
+
+                </span>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="container">
+    <div class="items">
+        <a asp-action="Create" class="btn btn-block btn-info">Create</a>
+    </div>
+    <div class="items">
+        <a asp-action="Index" class="btn btn-block btn-info">All Accounts</a>
+    </div>
+    <div class="items">
+        <a asp-action="FilterUser" class="btn btn-block btn-info">Filter User</a>
+    </div>
+    <div class="items">
+        <a asp-action="FilterAdmin" class="btn btn-block btn-info ">Filter Admin</a>
+    </div>
+    <div class="items">
+        <a asp-action="FilterUserFalse" class="btn btn-block btn-info ">Filter User False</a>
+    </div>
+</div>
+
+
+@section Msg{
+    <script>
+        setTimeout(function () {
+            $('#msgAlert').fadeOut('slow');
+        }, 3000);
+
+    </script>
+    }
+@if (ViewBag.SuccessMsg != null)
+{
+    <div id="msgAlert" class="alert alert-primary text-center m-3" role="alert">
+        @ViewBag.SuccessMsg
+    </div>
+}
+
+
+<table class="table table-light m-3  ">
+    <thead class="table-dark">
+
+
+        <tr>
+            <th>ID</th>
+            <th>Username</th>
+
+            <th>Email</th>
+            <th>Avatar</th>
+            <th>Function</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Username</td>
+
+                <td>@item.Email</td>
+                <td>
+                    <img src="~/img/avatar/@item.Avatar" style="width:90px">
+                </td>
+
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-info">Edit</a>
+                    <form asp-action="Delete" asp-route-id="@item.Id" class="d-inline-block" onsubmit="return confirm('Are you sure you want to delete this account?');">
+                        <button class=" btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
